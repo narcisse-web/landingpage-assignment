@@ -1,0 +1,128 @@
+*{
+/* background-color: rgb(236, 236, 236); */
+margin: 0;
+padding: 0;
+}
+body{
+margin-left: 250px;
+}
+.main-bar{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin: 20px auto;
+background-color: #fff;
+text-align: center;
+/* margin-left: 250px; */
+}
+.mani-nav{
+font-size: 18px;
+margin-right: 10px;
+margin-bottom: 30px;
+justify-content: flex-start;
+}
+.mani-nav a{
+text-decoration: none;
+color: #000;
+font-size: 20px;
+font-weight: bold;
+}
+.main-link{
+justify-content: center;
+}
+.main-link ul li {
+display: inline-block;
+padding: 10px;
+}
+.main-left {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.main-left input[type="submit"]{
+width: 120px;
+height: 40px;
+background-color: rgb(248, 171, 27);
+text-align: center;
+border-radius: 5px;
+border: 1px solid rgb(248, 171, 27);
+margin-right: 40px;
+margin-top: -2px;
+}
+/* design on body */
+.main-body{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: 50px 250px;
+margin-bottom: 60px;
+max-width: 70%;
+}
+.content-doc{
+padding: 20px;
+width: 50vh;
+grid-column: 1/-2;
+}
+.content-doc p{
+padding-bottom: 25px;
+font-size: 18px;
+}
+.content-doc h1{
+font-style: bold;
+font-size: 28px;
+padding-bottom: 10px;
+}
+.content-doc h4{
+font-weight: bold;
+font-size: 18px;
+padding-bottom: 2px;
+}
+.content-doc button{
+padding: 10px;
+background-color: rgb(43, 42, 42);
+color: #fff;
+border:1px solid rgb(43, 42, 42);
+border-radius: 5px;
+}
+.status{
+grid-column: 2/12;
+}
+.image{
+width: 80%;
+height: 50vh;
+margin-top: -55px;
+margin-left: 140px;
+}
+/* footer coding */
+.footer-nav{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+background-color:#fff ;
+}
+.footer-left{
+display: flex;
+flex-direction: flex-start;
+margin-bottom: 20px ;
+font-weight: bold;
+}
+.footer-left a{
+text-decoration: none;
+color: #000;
+}
+.footer-right{
+display: flex;
+flex-direction: flex-end;
+}
+.footer-right p{
+font-size: 14px;
+padding-bottom: 4px;
+
+}
+#text{
+font-size: 12px;
+}
+.profile{
+border-radius: 360px;
+width: 40px;
+margin-left: -40px;
+}
